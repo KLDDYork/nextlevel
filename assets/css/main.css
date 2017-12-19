@@ -1568,7 +1568,7 @@
 	}
 
 		#banner-wrapper .inner {
-			background: url("../../images/banner.jpg");
+			background-color: #443950;
 			background-size: cover;
 		}
 
@@ -1584,7 +1584,7 @@
 	}
 
 		#features-wrapper p {
-			text-align: center;
+			text-align: left;
 		}
 
 		#features-wrapper .actions {
@@ -1709,7 +1709,8 @@
 	}
 
 		#banner p {
-			font-weight: 400;
+			font-weight: 600;
+			text-align:  center;
 		}
 
 		#banner strong {
@@ -2526,6 +2527,14 @@
 			.service{
 				    background-color: #b8b0a3;
     color: white;
+	
+			}
+			
+			.imageGallery1{
+			}
+			
+			.imageGallery1 img {
+				width: 100%;
 			}
 
 	}

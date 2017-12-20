@@ -2302,7 +2302,7 @@
 						display: block;
 						width: 60px;
 						height: 40px;
-						background: rgba(232, 232, 232, 0.9);
+						background: rgb(246, 217, 116);
 						border-radius: 4px;
 						position: absolute;
 						left: 5px;
@@ -2339,7 +2339,7 @@
 				top: 0;
 				width: 275px;
 				z-index: 10002;
-				background: #444;
+				background: #e9ab4d;
 				border-right: solid 2px #3c3c3c;
 				font-weight: 400;
 				text-transform: uppercase;

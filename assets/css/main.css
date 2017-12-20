@@ -1095,7 +1095,7 @@
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 600;
 		text-transform: uppercase;
-		color: #888;
+		color: #e9ab4d;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1132,7 +1132,8 @@
 
 	strong, b {
 		font-weight: 600;
-		color: #666;
+		color: #e9ab4d;
+		text-align:  center;
 	}
 
 	em, i {
@@ -1196,7 +1197,7 @@
 		-ms-transition: opacity 0.25s ease-in-out;
 		transition: opacity 0.25s ease-in-out;
 		display: inline-block;
-		border: solid 6px #ebebeb !important;
+		border: solid 6px #e9ab4d !important;
 	}
 
 		.image:hover {
@@ -1449,7 +1450,7 @@
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background: #ed786a;
+		background: #e9ab4d;
 		color: #fff !important;
 		text-transform: uppercase;
 		border-radius: 4px;
@@ -1477,7 +1478,7 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #fd887a;
+			background: #e9ab4d;
 		}
 
 		input[type="button"]:active,
@@ -1557,18 +1558,19 @@
 		}
 
 	#banner-wrapper {
+		margin-top: 20px;
 		position: relative;
 		overflow: hidden;
-		background: #fff;
+		background: #e9ab4d;
 		color: #fff;
 		text-align: center;
-		border-top: solid 2px #e5e5e5;
-		border-bottom: solid 2px #e5e5e5;
-		box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5, inset 0px 8px 0px 0px #fff, inset 0px 10px 0px 0px #e5e5e5;
+		border-top: solid 2px #e9ab4d;
+		border-bottom: solid 2px #e9ab4d;
+		/* box-shadow: inset 0px -8px 0px 0px #e1d9d973, inset 0px -10px 0px 0px #fcfcfc, inset 0px 8px 0px 0px #fff, inset 0px 10px 0px 0px #e5e5e5; */
 	}
 
 		#banner-wrapper .inner {
-			background-color: #443950;
+			background-color: #ffffffed;
 			background-size: cover;
 		}
 
@@ -1585,6 +1587,7 @@
 
 		#features-wrapper p {
 			text-align: left;
+			color: #141210;
 		}
 
 		#features-wrapper .actions {
@@ -1628,8 +1631,8 @@
 
 	#header {
 		position: relative;
-		border-bottom: solid 2px #e5e5e5;
-		box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5;
+		border-bottom: solid 2px #e9ab4d;
+		/* box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5; */
 	}
 
 		#header h1 {
@@ -1714,7 +1717,8 @@
 		}
 
 		#banner strong {
-			color: inherit;
+			/* color: inherit; */
+			/* text-align:  center; */
 		}
 
 /* Content */
@@ -2421,7 +2425,7 @@
 			}
 
 			#features-wrapper {
-				padding: 3em 20px 3em 20px;
+				padding: 2em 20px 3em 20px;
 			}
 
 			#banner-wrapper {
@@ -2469,7 +2473,6 @@
 				#banner p {
 					font-size: 1.75em;
 					line-height: 1.25em;
-					letter-spacing: 3px;
 				}
 
 					#banner p br {
@@ -2525,9 +2528,8 @@
 			}
 			
 			.service{
-				    background-color: #b8b0a3;
-    color: white;
-	
+				    background-color: #ecb767;
+				    color: white;
 			}
 			
 			.imageGallery1{

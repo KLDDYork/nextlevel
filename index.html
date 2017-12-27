@@ -27,7 +27,6 @@
 							<h1><a href="index.html"><img id="logo" src="images/logo.jpg"></a></h1>
 							<p></p>
 							
-							<button onclick="swapStyleSheet('assets/css/dark.css')">Dark Style Sheet</button>
 
 						<!-- Nav -->
 							<nav id="nav">
@@ -37,6 +36,7 @@
 										<a href="services.html" class="icon fa-bar-chart-o"><span>Services</span></a>
 										
 											</li>
+
 											
 									</li>
 									<li><a class="icon  fa-file-picture-o" href="gallery.html"><span>Gallery</span></a></li>
@@ -189,6 +189,8 @@
 													<a href="#">facebook.com/untitled-tld</a>
 												</li>
 											</ul>
+																		<button onclick="swapStyleSheet('assets/css/dark.css' , 'images/logo2.jpg')">Dark Theme</button>
+
 										</div>
 									</div>
 								</section>
@@ -225,8 +227,10 @@
 						});
 		</script>
 		<script>
-    function swapStyleSheet(sheet){
+    function swapStyleSheet(sheet, src){
         document.getElementById('pagestyle').setAttribute('href', sheet);
+		      document.getElementById('logo').setAttribute('src', src);
+  
     }
     </script>
 			<script src="assets/js/skel.min.js"></script>

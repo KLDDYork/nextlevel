@@ -1565,7 +1565,7 @@
 		color: #fff;
 		text-align: center;
 		border-top: solid 2px #e9ab4d;
-		border-bottom: solid 2px #e9ab4d;
+		/* border-bottom: solid 2px #e9ab4d; */
 		/* box-shadow: inset 0px -8px 0px 0px #e1d9d973, inset 0px -10px 0px 0px #fcfcfc, inset 0px 8px 0px 0px #fff, inset 0px 10px 0px 0px #e5e5e5; */
 	}
 

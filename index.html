@@ -11,7 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link id="pagestyle" rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" href="images/logo.jpg">
 		
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
@@ -26,7 +26,7 @@
 						<!-- Logo -->
 							<h1><a href="index.html"><img id="logo" src="images/logo2.jpg"></a></h1>
 							<p></p>
-
+<button onclick="swapStyleSheet('assets/css/main.css')">Dark Style Sheet</button>
 						<!-- Nav -->
 							<nav id="nav">
 								<ul>
@@ -222,6 +222,11 @@
 			$(".rslides").responsiveSlides();
 						});
 		</script>
+		<script>
+    function swapStyleSheet(sheet){
+        document.getElementById('pagestyle').setAttribute('href', sheet);
+    }
+    </script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/skel-viewport.min.js"></script>
 			<script src="assets/js/util.js"></script>

@@ -1592,6 +1592,7 @@
 
 		#features-wrapper .actions {
 			margin-top: 1.25em;
+			text-align: center;
 		}
 
 	#main-wrapper {
@@ -1806,8 +1807,8 @@
 		/* List */
 
 			ul.actions li {
-				display: inline-block;
-				margin-left: 1em;
+				/* display: inline-block; */
+				/* margin-left: 1em; */
 			}
 
 				ul.actions li:first-child {
